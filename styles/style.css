@@ -1,11 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-
 .content-section {
   width: 100%;
   max-width: 1100px;
-  min-height: 100px;
   margin: auto;
   color: #000;
   font-weight: normal;
@@ -68,10 +63,6 @@
 
 .header__address {
   justify-self: end;
-}
-
-.address-list {
-  list-style: none;
 }
 
 .address a {
@@ -205,27 +196,21 @@
   position: relative;
   height: 100%;
   padding: 46px 40px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card-content {
@@ -252,7 +237,6 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 26px;
-  min-height: 595px;
   margin-bottom: 180px;
   padding: 35px 24px 0;
 }
@@ -281,6 +265,7 @@
   flex-direction: column;
   justify-content: end;
   gap: 100px;
+  margin-top: 102px;
 }
 
 .about__text {
@@ -292,7 +277,6 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  min-height: 180px;
   padding: 0 50px;
 }
 
