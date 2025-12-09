@@ -47,7 +47,7 @@
   list-style-position: inside;
 }
 
-.header__links-list-item:first-child{
+.header__links-list-item:first-child {
   list-style: none;
 }
 
@@ -155,7 +155,7 @@
   word-spacing: 0.8em;
 }
 
-.space-medium  {
+.space-medium {
   word-spacing: 0.84em;
 }
 
